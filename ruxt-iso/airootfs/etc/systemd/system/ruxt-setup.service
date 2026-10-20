@@ -1,0 +1,12 @@
+[Unit]
+Description=Ruxt Live User Setup
+Before=sddm.service
+ConditionPathExists=/root/customize_airootfs.sh
+
+[Service]
+Type=oneshot
+ExecStart=/root/customize_airootfs.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+NAME="Ruxt Linux"
+PRETTY_NAME="Ruxt Linux"
+ID=ruxt
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;138;43;226"
+HOME_URL="https://github.com/ruxt-linux"
+LOGO=ruxt

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Ruxt Linux
+GenericName=System Installer
+Comment=Install Ruxt Linux to your drive
+Exec=/usr/local/bin/launch-installer
+Icon=calamares
+Terminal=false
+Categories=System;
